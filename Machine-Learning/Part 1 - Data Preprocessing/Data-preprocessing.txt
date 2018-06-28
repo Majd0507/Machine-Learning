@@ -1,0 +1,19 @@
+Data preprocessing is a data mining technique that involves transforming raw data into an understandable format. 
+Real-world data is often incomplete, inconsistent, and/or lacking in certain behaviors or trends, and is likely 
+to contain many errors. Data preprocessing is a proven method of resolving such issues. 
+Data preprocessing prepares raw data for further processing.
+
+Labraries:
+Numpy : contains mathematical tools.
+Matplotlib.pyplot : plot nice charts.
+Pandas : import and manage data sets.
+
+The sklearn.preprocessing package provides several common utility functions and transformer classes to change raw 
+feature vectors into a representation that is more suitable for the downstream estimators.
+
+In general, learning algorithms benefit from standardization of the data set. 
+If some outliers are present in the set, robust scalers or transformers are more appropriate. 
+The behaviors of the different scalers, transformers, and normalizers on a dataset containing marginal outliers is 
+highlighted in Compare the effect of different scalers on data with outliers.
+
+=> The way to manage data sets without using R ; It is just with python.

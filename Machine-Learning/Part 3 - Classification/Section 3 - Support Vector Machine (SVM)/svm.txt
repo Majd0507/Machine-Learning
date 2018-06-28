@@ -1,0 +1,12 @@
+A support vector machine is a supervised learning algorithm that sorts data into two categories. 
+It is trained with a series of data already classified into two categories, building the model as it is initially trained. 
+The task of an SVM algorithm is to determine which category a new data point belongs in. 
+This makes SVM a kind of non-binary linear classifier.
+An SVM algorithm should not only place objects into categories, but have the margins between them on a graph as wide as 
+possible.
+
+Some applications of SVM include:
+-Text and hypertext classification
+-Image classification
+-Recognizing handwritten characters
+-Biological sciences, including protein classification
