@@ -3,6 +3,8 @@
 
 @author: Majd
 """
+
+# Setup a Python environment for Deep Learning 
 # Installing Theano
 # pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
 
@@ -12,7 +14,9 @@
 # Installing Keras
 # pip install --upgrade keras
 
-# Part 1 - Building the CNN
+
+
+# Part 1 - CNN
 
 # Importing the Keras libraries and packages
 from keras.models import Sequential
