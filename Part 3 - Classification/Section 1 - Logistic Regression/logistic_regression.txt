@@ -1,0 +1,11 @@
+Logistic regression is a statistical method for analysing a dataset in which there are one or more independent variables 
+that determine an outcome. 
+The outcome is measured with a dichotomous variable. 
+It is used to predict a binary outcome (1 / 0, Yes / No, True / False) given a set of independent variables. 
+To represent binary / categorical outcome, we use dummy variables. You can also think of logistic regression as a special 
+case of linear regression when the outcome variable is categorical, where we are using log of odds as dependent variable. 
+In simple words, it predicts the probability of occurrence of an event by fitting data to a logit function.
+the logistic regression is a predictive analysis. Logistic regression is used to describe data and to explain the 
+relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level 
+independent variables.
+We gone create a model for a car company that predict which users gone buy an SUV depending on their age and salary.

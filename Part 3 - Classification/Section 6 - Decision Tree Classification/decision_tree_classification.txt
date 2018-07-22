@@ -1,0 +1,9 @@
+A decision tree is a tree where each node represents a feature(attribute), each link(branch) represents a decision(rule) 
+and each leaf represents an outcome(categorical or continues value).
+
+CART (Classification and Regression Trees) -> uses Gini Index(Classification) as metric.
+ID3 (Iterative Dichotomiser 3) -> uses Entropy function and Information gain as metrics.
+
+Decision tress often mimic the human level thinking so its so simple to understand the data and make some good 
+interpretations.
+Decision trees actually make you see the logic for the data to interpret(not like black box algorithms like SVM,NN,etc..)

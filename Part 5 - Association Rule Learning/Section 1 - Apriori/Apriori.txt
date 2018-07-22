@@ -1,0 +1,13 @@
+Apriori Algorithm
+The Apriori algorithm principle says that if an itemset is frequent, then all of its subsets are frequent.this means that 
+if {0,1} is frequent, then {0} and {1} have to be frequent.
+
+The rule turned around says that if an itemset is infrequent, then its supersets are also infrequent.
+
+We first need to find the frequent itemsets, and then we can find association rules.
+
+Pros: Easy to code up
+
+Cons: May be slow on large datasets
+
+Works with: Numeric values, nominal values

@@ -1,0 +1,11 @@
+Association rule learning is a rule-based machine learning method for discovering interesting relations between variables 
+in large databases. 
+It is intended to identify strong rules discovered in databases using some measures of interestingness.
+
+Measure 1: Support. This says how popular an itemset is, as measured by the proportion of transactions in which an 
+	   itemset appears. 
+Measure 2: Confidence. This says how likely item Y is purchased when item X is purchased, expressed as {X -> Y}. 
+	   This is measured by the proportion of transactions with item X, in which item Y also appears.
+Measure 3: Lift. This says how likely item Y is purchased when item X is purchased, while controlling for how popular 
+	   item Y is. A lift value greater than 1 means that item Y is likely to be bought if item X is bought, while 
+	   a value less than 1 means that item Y is unlikely to be bought if item X is bought.

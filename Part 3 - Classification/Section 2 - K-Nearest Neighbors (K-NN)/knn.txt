@@ -1,0 +1,24 @@
+KNN is a non-parametric, lazy learning algorithm. Its purpose is to use a database in which the data points are separated 
+into several classes to predict the classification of a new sample point.
+KNN works well with a small number of input variables (p), but struggles when the number of inputs is very large.
+Each input variable can be considered a dimension of a p-dimensional input space. For example, if you had two input 
+variables x1 and x2, the input space would be 2-dimensional.
+As the number of dimensions increases the volume of the input space increases at an exponential rate.
+An object is classified by a majority vote of its neighbors, with the object being assigned to the class most common among 
+its k nearest neighbors (k is a positive integer, typically small). 
+If k = 1, then the object is simply assigned to the class of that single nearest neighbor.
+
+=>Best Prepare Data for KNN
+Rescale Data: KNN performs much better if all of the data has the same scale. Normalizing your data to the range [0, 1] 
+                      is a good idea. It may also be a good idea to standardize your data if it has a Gaussian distribution.
+Address Missing Data: Missing data will mean that the distance between samples can not be calculated. These samples could 
+                      be excluded or the missing values could be imputed.
+Lower Dimensionality: KNN is suited for lower dimensional data. You can try it on high dimensional data but be aware that 
+                      it may not perform as well as other techniques. KNN can benefit from feature selection that reduces 
+                      the dimensionality of the input feature space.
+
+Steps:
+1-Choose the number K of neighbors.
+2-Take the K nearest neighbors of the new data point, according to the Euclidean distance.
+3-Among these K neighbors, count the number of data points in each category.
+4-Assign the new data point to the category where you counted the most neighbors.

@@ -1,0 +1,9 @@
+Hierarchical clustering, as the name suggests is an algorithm that builds hierarchy of clusters. 
+This algorithm starts with all the data points assigned to a cluster of their own. Then two nearest clusters are merged 
+into the same cluster. In the end, this algorithm terminates when there is only a single cluster left.
+
+Steps:
+1-Make each data point a single-point cluster => that forms N clusters
+2-Take the two closest data points and make them one cluster => that forms N-1 clusters
+3-Take the two closest clusters and make them one cluster => the forms N-2 clusters
+4-Repeat step 3 until there is only one cluster 

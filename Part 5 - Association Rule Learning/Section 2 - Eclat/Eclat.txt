@@ -1,0 +1,14 @@
+The Eclat algorithm is used to perform itemset mining. Itemset mining let us find frequent patterns in data like if a 
+consumer buys milk, he also buys bread. 
+This type of pattern is called association rules and is used in many application domains.
+
+The basic idea for the eclat algorithm is use tidset intersections to compute the support of a candidate itemset avoiding 
+the generation of subsets that does not exist in the prefix tree.
+
+Algorithm:
+The Eclat algorithm is defined recursively. The initial call use all the single items with their tidsets. 
+In each recursive call, the function IntersectTidsets verifies each itemset-tidset 
+pair \left\langle {X,t(X)} \right\rangle with all the others pairs \left\langle {Y,t(Y)} \right\rangle to generate 
+new candidates N_{XY}. If the new candidate is frequent, it is added to the set P_{X}. 
+Then, recursively, it finds all the frequent itemsets in the X branch. The algorithm searchs in a DFS manner to find all 
+the frequent sets.

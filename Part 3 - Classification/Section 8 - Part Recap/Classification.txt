@@ -1,0 +1,15 @@
+Classification: This is a type of problem where we predict the categorical response value where the data can be separated 
+into specific “classes” (ex: we predict one of the values in a set of values).
+
+Some examples are :
+-this mail is spam or not?
+-will it rain today or not?
+-is this picture a cat or not?
+
+Basically ‘Yes/No’ type questions called binary classification.
+
+Other examples are :
+-this mail is spam or important or promotion?
+-is this picture a cat or a dog or a tiger?
+
+This type is called multi-class classification.

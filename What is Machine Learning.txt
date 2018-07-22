@@ -1,0 +1,21 @@
+
+
+“Machine Learning is the science of getting computers to learn and act like humans do, and improve their learning over 
+time in autonomous fashion, by feeding them data and information in the form of observations and real-world interactions.”
+
+1-Unsupervised ML: when the data set is unlabeled (no feature or class/ category labels to be predicted). The algorithms 
+used are clustering algorithms, such as KMEAN, Hierarchical, DBSCAN, etc. These algorithms partition the data set into 
+similar groups/clusters, such as market segmentats.
+
+2-Supervised ML: when the data set is labeled (has a label feature to be predicted). There are two types of algorithms:
+-Regression algorithms for prediction of non integer numeric features (e.g. temperature, sales, etc.), using Regression 
+algorithms
+-Classification for the prediction of a label/class (medical tests: e.g. malignant, not malignant; weather forecast: sunny,
+ cloudy, rainy, hot, cold, etc.). The main classification algorithms are: K-Nearest Neighbors: KNN, Logistic Regression, 
+Support Vector Machine (SVM), Descion Trees, Bayesian Algorithm, Artificial Neural Networks (ANN), and other ANN-based 
+algorithms such as Deep Learning.
+
+3-Reinforcement learning:  The Reinforcement learning is branch of AI and its type of machine learning. In case of 
+Reinforcement learning machine and agents automatically determines ideal behaviour within a defined context. For it a task 
+is given to the agent and there are two options, agent chooses any one of them and if the choice is correct it will be 
+rewarded otherwise it will be punished. Based on these reward and punishment agent learns the ideal behaviour.

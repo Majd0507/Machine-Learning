@@ -1,0 +1,24 @@
+K-Means clustering is an unsupervised learning algorithm that, as the name hints, finds a fixed number (k) of clusters in 
+a set of data. A cluster is a group of data points that are grouped together due to similarities in their features. 
+When using a K-Means algorithm, a cluster is defined by a centroid, which is a point (either imaginary or real) at the 
+center of a cluster. Every point in a data set is part of the cluster whose centroid is most closely located. 
+To put it simply, K-Means finds k number of centroids, and then assigns all data points to the closest cluster, with the 
+aim of keeping the centroids small.
+
+Steps:
+1-Choose the number K of clusters
+2-Select at random K points , the centroids (not necessarily from the dataset)
+3-Assign each data point to the closest centroid => that forms K clusters
+4-Compute and place the new centroid of each cluster
+5-Reassign each data point to the new closest centroid
+
+Advantages of K-Means:
+-Widely used method for cluster analysis
+-Easy to understand
+-Trains quickly
+
+Disadvantages of K-Means:
+-Euclidean distance is not ideal in many applications
+-Performance is (generally) not competitive with the best clustering methods
+-Small variations in the data can result in a completely different clusters (high variance)
+-Clusters are assumed to have a spherical shape and be evenly sized

@@ -1,0 +1,12 @@
+Clustering: This is a type of problem where we group similar things together.
+
+The system understands from data itself 
+and cluster the data.
+Clustering is similar to classification, but the basis is different. In Clustering you don’t know what you are looking for, 
+and you are trying to identify some segments or clusters in your data. When you use clustering algorithms on your dataset, 
+unexpected things can suddenly pop up like structures, clusters and groupings you would have never thought of otherwise.
+
+Some examples are :
+-given news articles,cluster into different types of news
+-given a set of tweets ,cluster based on content of tweet
+-given a set of images, cluster them into different objects

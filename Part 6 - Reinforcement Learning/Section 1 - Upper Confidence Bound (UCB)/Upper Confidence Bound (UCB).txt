@@ -1,0 +1,7 @@
+The Upper-Confidence-Bound method (UCB) which attempts to explore the action space based on the uncertainty or variance 
+value. 
+In this approach, the algorithm is forced to search based on taking some random action. It doesn't take any expectations 
+into account or try to find values which are more likely to be rewarding; UCB fills this void.
+
+=>Determanistic
+  Requires update at every round

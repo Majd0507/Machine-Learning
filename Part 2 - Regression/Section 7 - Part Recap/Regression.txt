@@ -1,0 +1,8 @@
+Regression: This is a type of problem where we need to predict the continuous-response value (ex : above we predict number 
+which can vary from -infinity to +infinity)
+
+Some examples are
+
+what is the price of house in a specific city?
+what is the value of the stock?
+how many total runs can be on board in a cricket game?
