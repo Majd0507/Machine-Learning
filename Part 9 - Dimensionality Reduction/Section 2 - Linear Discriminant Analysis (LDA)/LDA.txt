@@ -1,0 +1,11 @@
+Linear Discriminant Analysis (LDA) is most commonly used as dimensionality reduction technique in the pre-processing step 
+for pattern-classification and machine learning applications. The goal is to project a dataset onto a lower-dimensional 
+space with good class-separability in order avoid overfitting and also reduce computational costs.
+The goal of LDA is to project a feature space (a dataset n-dimensional samples) onto a small subspace K (where K=<n-1)
+while maintaining the class-discriminatory information.
+
+Principal Component Analysis vs. Linear Discriminant Analysis:
+LDA differs because in addition to finding the component axises with LDA we are interested in the axes that maximize the 
+separation between multiple classes.
+Both PCA and LDA are linear tranformation techniques used for dimensional reduction. PCA is described as unsupervised but
+LDA is supervised because of the relation of the dependent variable.

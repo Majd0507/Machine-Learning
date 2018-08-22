@@ -1,0 +1,21 @@
+PCA considered to be one of the most used unsupervised algorithms and can be seen as the most popular dimensionality
+reduction algorithm.
+PCA is used for operations such:
+-Noise filtering
+-Visualization
+-Feature Extraction
+-Stock market predections
+-Gene data analysis
+The goal of PCA is to:
+-Identify patterns in data
+-Detect the correlation between variables
+=>Reduce the dimensions of a d-dimensional dataset by projecting it onto a (k)-dimensional subspace (where K<d)
+Principal component analysis:
+-Standardize the data 
+-Obtain the Eigenvectors and Eigenvalues from covariance matrix or correlation matrix, or perform Singular Vector 
+ Decomposition.
+-Sort eigenvalues in descending order and choose the K eigenvectors that correspond to the K largest eigenvalues where K 
+ is the number of dimensions of the new feature subspace (K<=d).
+-Construct the projection matrix W from the selected K eigenvectors.
+-Transform the original dataset X via W to obtain a k-dimensional feature subspace Y
+=>Learn about the relationship between X and Y values by finding a list of principal axes

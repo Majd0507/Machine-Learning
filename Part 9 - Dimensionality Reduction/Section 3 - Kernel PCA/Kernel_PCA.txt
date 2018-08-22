@@ -1,0 +1,20 @@
+kernel principal component analysis (kernel PCA) is an extension of principal component analysis (PCA) using techniques of 
+kernel methods. 
+Using a kernel, the originally linear operations of PCA are performed in a reproducing kernel Hilbert space.
+
+Kernel PCA will have all the advantages of the regular PCA, as well as the implicit nonlinear mapping to a feature space F
+where the features representing the structure in the data may be better extracted. For example, data classification may be 
+much more easily carried out in F due to linear saparability.
+
+These are the steps for the implementation of the kernel PCA algorithm:
+
+Choose a kernel mapping 
+Obtain K based on training data 
+Solve eigenvalue problem of K to get lambda_i and Ai.
+For each given data point x , obtain its principal components in the feature space.
+Do whatever processing (e.g., feature selection, classification) in the feature space.
+
+Some commonly used kernels are:
+Gaussian 
+Sigmoid
+Polynomial

@@ -42,7 +42,7 @@ X = X[:, 1:]
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
 
-# Feature Scaling
+# Feature Scaling 
 from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
@@ -50,10 +50,10 @@ X_test = sc.transform(X_test)
 
 # Part 2 - ANN
 
-# Importing the Keras libraries and packages
+# Importing the Keras libraries and packages needed
 import keras
-from keras.models import Sequential
-from keras.layers import Dense
+from keras.models import Sequential #Initialize the neural network
+from keras.layers import Dense #Build layers in ANN
 
 # Initialising the ANN
 classifier = Sequential()
