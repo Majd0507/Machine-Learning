@@ -1,0 +1,28 @@
+***Cross Validation***
+
+K-Fold Cross-Validation for performance evaluation where K is any number. 
+The process of K-Fold Cross-Validation is straightforward. You divide the data into K folds. 
+Out of the K folds, K-1 sets are used for training while the remaining set is used for testing. 
+The algorithm is trained and tested K times, each time a new set is used as testing set while remaining sets are used for 
+training. Finally, the result of the K-Fold Cross-Validation is the average of the results obtained on each set.
+
+
+***Grid Search for Parameter Selection***
+
+A machine learning model has two types of parameters. The first type of parameters are the parameters that are learned 
+through a machine learning model while the second type of parameters are the hyper parameter that we pass to the machine 
+learning model.
+
+In the last section, while predicting the quality of wine, we used the Random Forest algorithm. The number of estimators 
+we used for the algorithm was 300. Similarly in KNN algorithm we have to specify the value of K and for SVM algorithm we 
+have to specify the type of Kernel. These estimators - the K value and Kernel - are all types of hyper parameters.
+
+Normally we randomly set the value for these hyper parameters and see what parameters result in best performance. 
+However randomly selecting the parameters for the algorithm can be exhaustive.
+
+Also, it is not easy to compare performance of different algorithms by randomly setting the hyper parameters because one 
+algorithm may perform better than the other with different set of parameters. And if the parameters are changed, the 
+algorithm may perform worse than the other algorithms.
+
+Therefore, instead of randomly selecting the values of the parameters, a better approach would be to develop an algorithm 
+which automatically finds the best parameters for a particular model. Grid Search is one such algorithm.
